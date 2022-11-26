@@ -1,0 +1,43 @@
+table{
+	border: 2px b solid;
+	border-collapse: collapse;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: whitesmoke;
+}
+
+tr:nth-child(even){
+	background-color: #d6EEEE;
+}
+
+tr{
+	border-bottom: 1px solid #ddd;
+}
+tr:hover{
+	background-color: #ddd;
+}
+
+th{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+	font-size: 24px;
+}
+td,th{
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+#heading {
+	text-align: center;
+	color: white;
+}
+
+#background{
+	background-image: url(slide-1.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+}
